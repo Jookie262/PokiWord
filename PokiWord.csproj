@@ -92,6 +92,7 @@
     <Content Include="Assets\Guess that Pokemon1.png" />
     <Content Include="Assets\Guess that Pokemon2.png" />
     <Content Include="Assets\logo.png" />
+    <Content Include="Assets\logo_w_subtitle.png" />
     <Content Include="Assets\play_button.png" />
     <Content Include="Assets\small_box.png" />
     <Content Include="DLL\Guna.UI2.dll" />
