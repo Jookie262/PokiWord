@@ -33,6 +33,7 @@ namespace PokiWord
             this.play = new System.Windows.Forms.PictureBox();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.PlayPanel = new System.Windows.Forms.Panel();
+            this.title = new System.Windows.Forms.PictureBox();
             this.card_guna = new Guna.UI2.WinForms.Guna2Panel();
             this.poke_name = new System.Windows.Forms.Label();
             this.poke_image = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -40,19 +41,18 @@ namespace PokiWord
             this.ok_box = new System.Windows.Forms.Panel();
             this.ok_text = new System.Windows.Forms.Label();
             this.answer_box = new System.Windows.Forms.Panel();
-            this.info = new System.Windows.Forms.Label();
-            this.answer = new System.Windows.Forms.Label();
+            this.answer = new Guna.UI2.WinForms.Guna2TextBox();
             this.answer_text = new System.Windows.Forms.Label();
-            this.title = new System.Windows.Forms.PictureBox();
+            this.info = new System.Windows.Forms.Label();
             this.MainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.play)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.PlayPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.title)).BeginInit();
             this.card_guna.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.poke_image)).BeginInit();
             this.ok_box.SuspendLayout();
             this.answer_box.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.title)).BeginInit();
             this.SuspendLayout();
             // 
             // MainPanel
@@ -105,6 +105,16 @@ namespace PokiWord
             this.PlayPanel.Name = "PlayPanel";
             this.PlayPanel.Size = new System.Drawing.Size(1008, 701);
             this.PlayPanel.TabIndex = 3;
+            // 
+            // title
+            // 
+            this.title.BackColor = System.Drawing.Color.Transparent;
+            this.title.Image = global::PokiWord.Properties.Resources.Guess_that_Pokemon2;
+            this.title.Location = new System.Drawing.Point(659, 156);
+            this.title.Name = "title";
+            this.title.Size = new System.Drawing.Size(263, 113);
+            this.title.TabIndex = 1;
+            this.title.TabStop = false;
             // 
             // card_guna
             // 
@@ -171,33 +181,39 @@ namespace PokiWord
             // answer_box
             // 
             this.answer_box.BackgroundImage = global::PokiWord.Properties.Resources.big_box;
-            this.answer_box.Controls.Add(this.info);
             this.answer_box.Controls.Add(this.answer);
+            this.answer_box.Controls.Add(this.info);
             this.answer_box.Controls.Add(this.answer_text);
             this.answer_box.Location = new System.Drawing.Point(601, 275);
             this.answer_box.Name = "answer_box";
             this.answer_box.Size = new System.Drawing.Size(359, 191);
             this.answer_box.TabIndex = 6;
             // 
-            // info
-            // 
-            this.info.Font = new System.Drawing.Font("Arial", 10.75F);
-            this.info.Location = new System.Drawing.Point(2, 138);
-            this.info.Name = "info";
-            this.info.Size = new System.Drawing.Size(356, 36);
-            this.info.TabIndex = 2;
-            this.info.Text = "use keyboard to type answer";
-            this.info.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // answer
             // 
-            this.answer.Font = new System.Drawing.Font("Arial Black", 25.25F, System.Drawing.FontStyle.Bold);
-            this.answer.Location = new System.Drawing.Point(1, 68);
+            this.answer.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.answer.DefaultText = "";
+            this.answer.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.answer.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.answer.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.answer.DisabledState.Parent = this.answer;
+            this.answer.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.answer.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.answer.FocusedState.Parent = this.answer;
+            this.answer.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Bold);
+            this.answer.ForeColor = System.Drawing.Color.Black;
+            this.answer.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.answer.HoverState.Parent = this.answer;
+            this.answer.Location = new System.Drawing.Point(60, 75);
+            this.answer.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.answer.Name = "answer";
-            this.answer.Size = new System.Drawing.Size(356, 62);
-            this.answer.TabIndex = 1;
-            this.answer.Text = "_ _ _ _ _";
-            this.answer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.answer.PasswordChar = '\0';
+            this.answer.PlaceholderText = "";
+            this.answer.SelectedText = "";
+            this.answer.ShadowDecoration.Parent = this.answer;
+            this.answer.Size = new System.Drawing.Size(242, 46);
+            this.answer.TabIndex = 3;
+            this.answer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // answer_text
             // 
@@ -209,15 +225,15 @@ namespace PokiWord
             this.answer_text.Text = "Answer";
             this.answer_text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // title
+            // info
             // 
-            this.title.BackColor = System.Drawing.Color.Transparent;
-            this.title.Image = global::PokiWord.Properties.Resources.Guess_that_Pokemon2;
-            this.title.Location = new System.Drawing.Point(659, 156);
-            this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(263, 113);
-            this.title.TabIndex = 1;
-            this.title.TabStop = false;
+            this.info.Font = new System.Drawing.Font("Arial", 10.75F);
+            this.info.Location = new System.Drawing.Point(2, 131);
+            this.info.Name = "info";
+            this.info.Size = new System.Drawing.Size(356, 36);
+            this.info.TabIndex = 2;
+            this.info.Text = "type the answer in text box";
+            this.info.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm
             // 
@@ -235,11 +251,11 @@ namespace PokiWord
             ((System.ComponentModel.ISupportInitialize)(this.play)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             this.PlayPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.title)).EndInit();
             this.card_guna.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.poke_image)).EndInit();
             this.ok_box.ResumeLayout(false);
             this.answer_box.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.title)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -255,12 +271,12 @@ namespace PokiWord
         private System.Windows.Forms.Panel answer_box;
         private System.Windows.Forms.Label ok_text;
         private System.Windows.Forms.Label answer_text;
-        private System.Windows.Forms.Label answer;
-        private System.Windows.Forms.Label info;
         private Guna.UI2.WinForms.Guna2Panel card_guna;
         private System.Windows.Forms.Label poke_name;
         private Guna.UI2.WinForms.Guna2PictureBox poke_image;
         private System.Windows.Forms.Label poke_description;
+        private Guna.UI2.WinForms.Guna2TextBox answer;
+        private System.Windows.Forms.Label info;
     }
 }
 
