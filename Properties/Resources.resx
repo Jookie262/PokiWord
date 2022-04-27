@@ -124,11 +124,17 @@
   <data name="big_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\big_box.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Bulbasaur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\pokemon\Bulbasaur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Buzzwole" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\pokemon\Buzzwole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="card" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charmander" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\pokemon\Charmander.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Copperajah" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\pokemon\Copperajah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,14 +154,23 @@
   <data name="logo_w_subtitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\logo_w_subtitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Pikachu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\pokemon\Pikachu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="play_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\play_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Raichu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\pokemon\Raichu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="small_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\small_box.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Solgaleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\pokemon\Solgaleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Squirtle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\pokemon\Squirtle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Volcanion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\pokemon\Volcanion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

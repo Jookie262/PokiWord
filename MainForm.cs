@@ -92,7 +92,7 @@ namespace PokiWord
         // Display the Message box if correct or not
         public void displayMessageBox()
         {
-            DialogResult result = MessageBox.Show("Want to Guess Again", 
+            DialogResult result = MessageBox.Show("Want to Guess Again?", 
                 checkAnswer(), MessageBoxButtons.YesNo);
 
             if (result == DialogResult.Yes)

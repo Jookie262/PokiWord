@@ -95,10 +95,15 @@
     <Content Include="Assets\logo.png" />
     <Content Include="Assets\logo_w_subtitle.png" />
     <Content Include="Assets\play_button.png" />
+    <Content Include="Assets\pokemon\Bulbasaur.png" />
     <Content Include="Assets\pokemon\Buzzwole.png" />
+    <Content Include="Assets\pokemon\Charmander.png" />
     <Content Include="Assets\pokemon\Copperajah.png" />
     <Content Include="Assets\pokemon\Eternatus.png" />
+    <Content Include="Assets\pokemon\Pikachu.png" />
+    <Content Include="Assets\pokemon\Raichu.png" />
     <Content Include="Assets\pokemon\Solgaleo.png" />
+    <Content Include="Assets\pokemon\Squirtle.png" />
     <Content Include="Assets\pokemon\Volcanion.png" />
     <Content Include="Assets\small_box.png" />
     <Content Include="DLL\Guna.UI2.dll" />
