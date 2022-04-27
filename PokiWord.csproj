@@ -109,6 +109,12 @@
     <Content Include="Assets\pokemon\Volcanion.png" />
     <Content Include="Assets\small_box.png" />
     <Content Include="DLL\Guna.UI2.dll" />
+    <Content Include="Screenshot\1.png" />
+    <Content Include="Screenshot\2.png" />
+    <Content Include="Screenshot\3.png" />
+    <Content Include="Screenshot\4.png" />
+    <Content Include="Screenshot\5.png" />
+    <Content Include="Screenshot\6.png" />
     <None Include="Resources\Solgaleo.png" />
     <None Include="Resources\Eternatus.png" />
     <None Include="Resources\Copperajah.png" />
