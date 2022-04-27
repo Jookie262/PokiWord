@@ -227,7 +227,7 @@ namespace PokiWord
             this.info.Name = "info";
             this.info.Size = new System.Drawing.Size(356, 36);
             this.info.TabIndex = 2;
-            this.info.Text = "type the answer in text box";
+            this.info.Text = "Type the answer in text box";
             this.info.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // answer_text

@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,10 +18,12 @@ namespace PokiWord
         // Initialize Needed Variables
         Pokemon pokemon;
         StringBuilder name, image, desc;
+        SoundPlayer bg = new SoundPlayer(Properties.Resources.bg_music);
 
         public MainForm()
         {
             InitializeComponent();
+            bg.PlayLooping();
             doubleBuffer(MainPanel);
             doubleBuffer(PlayPanel);
         }
