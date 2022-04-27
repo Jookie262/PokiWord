@@ -168,6 +168,7 @@ namespace PokiWord
             this.ok_box.Name = "ok_box";
             this.ok_box.Size = new System.Drawing.Size(142, 56);
             this.ok_box.TabIndex = 7;
+            this.ok_box.Click += new System.EventHandler(this.ok_box_Click);
             // 
             // ok_text
             // 
@@ -178,6 +179,7 @@ namespace PokiWord
             this.ok_text.TabIndex = 1;
             this.ok_text.Text = "OK";
             this.ok_text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ok_text.Click += new System.EventHandler(this.ok_text_Click);
             // 
             // answer_box
             // 
@@ -216,6 +218,7 @@ namespace PokiWord
             this.answer.Size = new System.Drawing.Size(242, 46);
             this.answer.TabIndex = 3;
             this.answer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.answer.KeyDown += new System.Windows.Forms.KeyEventHandler(this.answer_KeyDown);
             // 
             // info
             // 
