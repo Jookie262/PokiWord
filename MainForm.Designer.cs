@@ -42,8 +42,8 @@ namespace PokiWord
             this.ok_text = new System.Windows.Forms.Label();
             this.answer_box = new System.Windows.Forms.Panel();
             this.answer = new Guna.UI2.WinForms.Guna2TextBox();
-            this.answer_text = new System.Windows.Forms.Label();
             this.info = new System.Windows.Forms.Label();
+            this.answer_text = new System.Windows.Forms.Label();
             this.MainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.play)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
@@ -143,16 +143,17 @@ namespace PokiWord
             this.poke_image.Location = new System.Drawing.Point(0, 85);
             this.poke_image.Name = "poke_image";
             this.poke_image.ShadowDecoration.Parent = this.poke_image;
-            this.poke_image.Size = new System.Drawing.Size(435, 232);
+            this.poke_image.Size = new System.Drawing.Size(435, 320);
+            this.poke_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.poke_image.TabIndex = 1;
             this.poke_image.TabStop = false;
             // 
             // poke_description
             // 
             this.poke_description.Font = new System.Drawing.Font("Arial", 12F);
-            this.poke_description.Location = new System.Drawing.Point(17, 340);
+            this.poke_description.Location = new System.Drawing.Point(22, 417);
             this.poke_description.Name = "poke_description";
-            this.poke_description.Size = new System.Drawing.Size(402, 163);
+            this.poke_description.Size = new System.Drawing.Size(389, 86);
             this.poke_description.TabIndex = 0;
             this.poke_description.Text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem " +
     "Ipsum has been the industry\'s standard dummy text ever since the 1500s,";
@@ -191,6 +192,7 @@ namespace PokiWord
             // 
             // answer
             // 
+            this.answer.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.answer.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.answer.DefaultText = "";
             this.answer.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -215,16 +217,6 @@ namespace PokiWord
             this.answer.TabIndex = 3;
             this.answer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // answer_text
-            // 
-            this.answer_text.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold);
-            this.answer_text.Location = new System.Drawing.Point(3, 26);
-            this.answer_text.Name = "answer_text";
-            this.answer_text.Size = new System.Drawing.Size(356, 36);
-            this.answer_text.TabIndex = 0;
-            this.answer_text.Text = "Answer";
-            this.answer_text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // info
             // 
             this.info.Font = new System.Drawing.Font("Arial", 10.75F);
@@ -234,6 +226,16 @@ namespace PokiWord
             this.info.TabIndex = 2;
             this.info.Text = "type the answer in text box";
             this.info.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // answer_text
+            // 
+            this.answer_text.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold);
+            this.answer_text.Location = new System.Drawing.Point(3, 26);
+            this.answer_text.Name = "answer_text";
+            this.answer_text.Size = new System.Drawing.Size(356, 36);
+            this.answer_text.TabIndex = 0;
+            this.answer_text.Text = "Answer";
+            this.answer_text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm
             // 

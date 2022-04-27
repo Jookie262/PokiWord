@@ -56,6 +56,7 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pokemon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
@@ -94,8 +95,18 @@
     <Content Include="Assets\logo.png" />
     <Content Include="Assets\logo_w_subtitle.png" />
     <Content Include="Assets\play_button.png" />
+    <Content Include="Assets\pokemon\Buzzwole.png" />
+    <Content Include="Assets\pokemon\Copperajah.png" />
+    <Content Include="Assets\pokemon\Eternatus.png" />
+    <Content Include="Assets\pokemon\Solgaleo.png" />
+    <Content Include="Assets\pokemon\Volcanion.png" />
     <Content Include="Assets\small_box.png" />
     <Content Include="DLL\Guna.UI2.dll" />
+    <None Include="Resources\Solgaleo.png" />
+    <None Include="Resources\Eternatus.png" />
+    <None Include="Resources\Copperajah.png" />
+    <None Include="Resources\Buzzwole.png" />
+    <None Include="Resources\Volcanion.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
