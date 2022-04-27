@@ -93,6 +93,7 @@
     <Content Include="Assets\card.png" />
     <Content Include="Assets\Guess that Pokemon1.png" />
     <Content Include="Assets\Guess that Pokemon2.png" />
+    <Content Include="Assets\icon.ico" />
     <Content Include="Assets\logo.png" />
     <Content Include="Assets\logo_w_subtitle.png" />
     <Content Include="Assets\play_button.png" />
