@@ -12,11 +12,12 @@
 ## **How to Play** 📚
 1. Click the Play button
 2. Using the Hint found on the Card, try to guess the Pokemon's name. 
-3. A Message Box will appear, indicating whether you were correct or not.
+3. A Message Box will appear, indicating whether you were correct or not. 
+4. Then you can either continue the game or not by clicking yes or no.
 
 ## **Application of Array and String Builder** ⚙️
 ### Array
-I used an array to store the data of Pokemon. Each pokemon's name and description array are related to one another by an index number.
+I used an array to store the data of Pokemon. Each pokemon's name and description are related to one another by an index number.
 ```
 string[] name = { "Buzzwole", "Copperajah", "Eternatus", "Solgaleo", "Volcanion", "Pikachu", "Raichu", "Bulbasaur", "Charmander", "Squirtle"};
 
