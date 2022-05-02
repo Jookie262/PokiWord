@@ -6,7 +6,7 @@
 	
 ## **Run the Program** 📜
  To run the program, the device must have:
- - .Net Framework (Used .Net Framework version 4.6.1)
+ - .Net Framework (Used version 4.6.1)
  - IDE (Visual Studio)
 
 ## **How to Play** 📚
